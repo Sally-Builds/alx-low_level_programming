@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main - print to std err
- * Return - 0
+ * Return: returns 0
  */
 int main(void)
 {
-	fprintf(stderr, "%s\n", "and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19i\n");
 	return (0);
 }
