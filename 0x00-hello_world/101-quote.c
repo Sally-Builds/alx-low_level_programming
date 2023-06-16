@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-/*
- * main - print to std err
+/**
+ * main - Entry Point
  * Return: returns 0
  */
 int main(void)
