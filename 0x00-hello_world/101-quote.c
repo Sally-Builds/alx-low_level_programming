@@ -9,7 +9,7 @@ int main(void)
 	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 	int count = 0;
 
-	while (count < strlen(str))
+	while (count < (int) strlen(str))
 	{
 		putchar(str[count]);
 		count++;
