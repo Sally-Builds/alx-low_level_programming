@@ -15,5 +15,5 @@ int main(void)
 	} while (val <= 'z');
 
 	putchar('\n');
+	return (0);
 }
-
