@@ -20,8 +20,11 @@ int main(void)
 			{
 				putchar(first + '0');
 				putchar(second + '0');
-				putchar(',');
-				putchar(' ');
+				if (first != 8)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 			second++;
 		}
