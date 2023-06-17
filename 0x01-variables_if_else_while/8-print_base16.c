@@ -1,10 +1,8 @@
 #include <stdio.h>
-/*
- *
- * main -  working hex
+/**
+ * main - working hex
  *
  * Return: Always 0
- *
  */
 int main(void)
 {
