@@ -4,6 +4,7 @@
  * _isalpha - checks if char is an alphabet
  * @c: char parameter
  *
+ * Return: always 0 or 1
  */
 int _isalpha(int c)
 {
