@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include "main.h"
-
+/**
+ * print_sign - print sign
+ * @n: number
+ *
+ * Return: always a number
+ */
 int print_sign(int n)
 {
 	if (n > 0)
