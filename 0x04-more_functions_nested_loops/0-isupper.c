@@ -1,3 +1,4 @@
+#include <ctype.h>
 /**
  * _isupper - retuurns 0 or 1 depending on the case of the character
  * @c: integer
