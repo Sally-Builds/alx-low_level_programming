@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * print_diagonal
+ * @n: number of times
+ * Return: void
+ */
 void print_diagonal(int n)
 {
 	int i = 1;
@@ -7,7 +11,7 @@ void print_diagonal(int n)
 	while (i <= n)
 	{
 		int j = 1;
-		
+
 		while (j <= i)
 		{
 			_putchar(' ');
