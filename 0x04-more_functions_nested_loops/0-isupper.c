@@ -1,5 +1,3 @@
-#include <ctype.h>
-#include "main.h"
 /**
  * _isupper - retuurns 0 or 1 depending on the case of the character
  * @c: integer
@@ -8,7 +6,7 @@
  */
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if (isupper(c) > 0)
 		return (1);
 	else
 		return (0);
