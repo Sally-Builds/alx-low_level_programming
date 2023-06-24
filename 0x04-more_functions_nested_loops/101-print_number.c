@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+ * print_number - prints number using putchar alone
+ * @n: number to print
+ */
 void print_number(int n)
 {
 	if (n < 0)
