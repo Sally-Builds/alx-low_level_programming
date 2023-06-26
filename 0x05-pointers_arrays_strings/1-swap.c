@@ -1,0 +1,11 @@
+/**
+ * swap_int - swap pointers
+ * @a: number one
+ * @b: number two
+ */
+void swap_int(int *a, int *b)
+{
+	int temp = *a;
+	*a = *b;
+	*b = temp;
+}
