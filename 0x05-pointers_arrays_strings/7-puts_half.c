@@ -6,7 +6,7 @@
  */
 void puts_half(char *str)
 {
-	unsigned int i = (strlen(str) - 1)  / 2;
+	unsigned int i = ((strlen(str) - 1)  / 2) + 1;
 
 	if (strlen(str) % 2 == 0)
 		i = strlen(str) / 2;
