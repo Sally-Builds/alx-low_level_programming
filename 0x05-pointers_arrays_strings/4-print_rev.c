@@ -8,7 +8,7 @@ void print_rev(char *str)
 {
 	int a;
 
-	for (a = strlen(str); a >= 0; a--)
+	for (a = strlen(str) - 1; a >= 0; a--)
 	{
 		_putchar(str[a]);
 	}
