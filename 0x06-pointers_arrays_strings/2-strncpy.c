@@ -1,5 +1,5 @@
 /**
- * strncpp=y - copy string
+ * _strncpy - copy string
  * @dest: destination
  * @src: source
  * @n: size
