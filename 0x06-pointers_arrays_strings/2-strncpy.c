@@ -1,4 +1,3 @@
-#include <string.h>
 /**
  * strncpp=y - copy string
  * @dest: destination
