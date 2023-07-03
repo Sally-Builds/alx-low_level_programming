@@ -11,8 +11,11 @@ char *_strchr(char *s, char c)
 	while (*s != '\0')
 	{
 		if (*s == c)
-			return(s);
-		++s;
+			return (s);
+		s++;
 	}
+	/**This is to return address of the null character if c is a null character */
+	if (s == c)
+		return (s);
 	return ('\0');
 }
