@@ -1,1 +1,1 @@
-C quizes
+C Coding Challenges
