@@ -1,6 +1,13 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+/**
+ * main  - main function
+ * @argc: number of command line arguments
+ * @argv: command line argument
+ *
+ * Return: Always 1 or 0
+ */
 int main(int argc, char *argv[])
 {
 	if (argc > 3)
