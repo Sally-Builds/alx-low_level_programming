@@ -1,5 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
+/**
+ * main - main function
+ * @argc: number of cmd args
+ * @argv: cmd line args
+ *
+ * Return: always 0 or 1
+ */
 int main(int argc, char *argv[])
 {
 	int result = 0;
