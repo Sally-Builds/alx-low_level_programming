@@ -1,6 +1,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include "main.h"
+
 /**
  * string_nconcat - concatenates two strings together based on the size
  * @n: size
@@ -8,6 +9,7 @@
  * @s2: second string
  * Return: string
  */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int len1, len2, i, j;
