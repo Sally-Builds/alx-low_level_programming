@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_list - count nodes in a singly linked list
+ * list_len - count nodes in a singly linked list
  * @h: node head
  * Return: length of singly linked list
  */
@@ -16,6 +16,7 @@ size_t list_len(const list_t *h)
 
 	while (h->next != NULL)
 	{
+		h = h->next;
 		i++;
 	}
 
