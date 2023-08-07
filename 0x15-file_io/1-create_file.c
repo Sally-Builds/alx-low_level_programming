@@ -9,7 +9,7 @@
  * @text_content: content
  * Return: chars read
  */
-
+int _strlen(const char *s);
 int create_file(const char *filename, char *text_content)
 {
 	int fd;
