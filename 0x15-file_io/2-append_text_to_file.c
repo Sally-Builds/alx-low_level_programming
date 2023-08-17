@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <fcntl.h>
 #include "main.h"
+int _strlen(const char *s);
 /**
  * append_text_to_file - apends text to file
  * @filename: path to file
