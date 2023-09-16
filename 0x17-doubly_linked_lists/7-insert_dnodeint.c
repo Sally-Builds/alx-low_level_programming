@@ -49,5 +49,17 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		count++;
 	}
 
+	if (idx == count)
+	{
+		ptr->next = NULL;
+		ptr->prev = tmp->prev;
+		if (tmp->prev != NULL)
+			tmp->prev->next = ptr;
+		tmp->prev = ptr;
+		return (ptr);
+	}
+
+	free(ptr);
+
 	return (NULL);
 }
