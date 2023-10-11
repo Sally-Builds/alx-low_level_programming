@@ -1,5 +1,5 @@
 #include "hash_tables.h"
-
+#include <string.h>
 /**
  * hash_table_set - sets a new node
  * @key: key to set
