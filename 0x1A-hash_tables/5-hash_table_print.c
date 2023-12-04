@@ -30,6 +30,8 @@ void hash_table_print(const hash_table_t *ht)
 				{
 					printf("'%s': '%s'", ht->array[i]->key, ht->array[i]->value);
 					current = current->next;
+					if (current != NULL)
+						printf(", ");
 				}
 			}
 			comma_flag = 1;
